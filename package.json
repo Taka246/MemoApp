@@ -5,7 +5,7 @@
     "babel-eslint": "^8.1.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "expo": "^24.0.0",
+    "expo": "^24.0.2",
     "react": "^16.2.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-24.0.0.tar.gz"
   },
