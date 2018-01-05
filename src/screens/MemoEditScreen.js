@@ -12,7 +12,6 @@ class MemoEditScreen extends React.Component {
 
   componentWillMount() {
     const { params } = this.props.navigation.state;
-    console.log(params);
     this.setState({
       body: params.body,
       key: params.key,
@@ -37,8 +36,7 @@ class MemoEditScreen extends React.Component {
         });
         navigation.goBack();
       })
-      .catch((error) => {
-        console.log(error);
+      .catch(() => {
       });
   }
 
