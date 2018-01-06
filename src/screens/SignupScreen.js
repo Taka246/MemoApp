@@ -14,7 +14,7 @@ class SignupScreen extends React.Component {
       .then(() => {
         const resetAction = NavigationActions.reset({
           index: 0,
-          action: [
+          actions: [
             NavigationActions.navigate({ routeName: 'Home' }),
           ],
         });
